@@ -2,6 +2,7 @@ package egit;
 
 public class Clase1 {
    private int valor;
+   private String descripcion;
 
 public Clase1(int valor) {
 	super();
