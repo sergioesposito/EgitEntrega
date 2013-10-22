@@ -7,10 +7,11 @@ public class Clase1 {
 	private String descripcion;
 	private Date fecha;
 
-	public Clase1(int valor, String descripcion) {
+	public Clase1(int valor, String descripcion, Date fecha) {
 		super();
 		this.valor = valor;
 		this.descripcion = descripcion;
+		this.fecha = fecha;
 	}
 
 	public int getValor() {
@@ -27,6 +28,14 @@ public class Clase1 {
 
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
+	}
+
+	public Date getFecha() {
+		return fecha;
+	}
+
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
 	}
 
 	@Override
