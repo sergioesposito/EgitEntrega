@@ -26,4 +26,9 @@ public class Clase1 {
 		this.descripcion = descripcion;
 	}
 
+	@Override
+	public String toString() {
+		return "Clase1 [valor=" + valor + ", descripcion=" + descripcion + "]";
+	}
+
 }
