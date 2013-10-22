@@ -40,7 +40,8 @@ public class Clase1 {
 
 	@Override
 	public String toString() {
-		return "Clase1 [valor=" + valor + ", descripcion=" + descripcion + "]";
+		return "Clase1 [valor=" + valor + ", descripcion=" + descripcion
+				+ ", fecha=" + fecha + "]";
 	}
 
 }
