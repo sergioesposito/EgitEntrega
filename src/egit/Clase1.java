@@ -1,8 +1,11 @@
 package egit;
 
+import java.util.Date;
+
 public class Clase1 {
 	private int valor;
 	private String descripcion;
+	private Date fecha;
 
 	public Clase1(int valor, String descripcion) {
 		super();
